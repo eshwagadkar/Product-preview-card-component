@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview Card Component</title>
+    <script src="./bundle.js" defer></script>
+</head>
+<body class="container">
+    <article class="card" id="card">
+        <!-- Card Image -->
+        <figure class="card__image">
+            <picture>
+                <source media="(max-width: 720px)" srcset="./images/image-product-mobile.jpg" />
+                <img src="assets/images/image-product-desktop.jpg" alt="Photo of the Empire State Building">
+            </picture>
+        </figure>
+        <!-- Card Description -->
+        <div class="card__content">
+                <h1 class="card__content--header">Gabrielle Essence Eau De Parfum</h1>
+                <p class="card__content--body">  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                    Perfumer-Creator for the House of CHANEL.</p>
+                <h6 class="card__content--pricing">$149.99<span>$169.99</span></h6>
+                <button class="button" type="button">Add to Cart</button>
+        </div>
+    </article>
+</body>
+</html>
