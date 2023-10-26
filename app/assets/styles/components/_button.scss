@@ -1,0 +1,14 @@
+.button{
+    display: block;
+    width: 100%;
+    background-color: $dark-cyan;
+    outline: none;
+    border: none;
+    color: $white;
+    padding: 1rem 0;
+
+    font-family: $montserrat;
+    font-weight: 700;
+
+    border-radius: 5px;
+}
